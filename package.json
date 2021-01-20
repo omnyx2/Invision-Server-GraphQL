@@ -1,0 +1,21 @@
+{
+  "name": "InvisionAPp",
+  "version": "0.0.0",
+  "description": "Develop App for Invision",
+  "main": "index.js",
+  "repository": "https://github.com/omnyx2/Invision-Server-GraphQL.git",
+  "author": "omnyx2 <omnyx2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
