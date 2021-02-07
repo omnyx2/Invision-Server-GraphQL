@@ -1,6 +1,17 @@
+const recoder = () => {
+  console.log(" [REQUEST] Proccessing... :" + "(Done)")
+}
+
+
+
+
 const resolvers = {
   Query: {
-    hello:(_, {name}) =>`Hello${name || world}`,
+    hello:(_, {name}) => {
+      recoder()
+        return `Hello${name || world}`
+    },
+
   }
 }
 
